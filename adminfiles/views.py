@@ -27,6 +27,7 @@ class BaseView(TemplateView):
             'ADMINFILES_MEDIA_URL': settings.ADMINFILES_MEDIA_URL,
             'ADMINFILES_REF_START': settings.ADMINFILES_REF_START,
             'ADMINFILES_REF_END': settings.ADMINFILES_REF_END,
+            'ADMINFILES_REF_ATTR': settings.ADMINFILES_REF_ATTR,
             'JQUERY_URL': settings.JQUERY_URL
         })
 

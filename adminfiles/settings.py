@@ -27,6 +27,7 @@ ADMINFILES_REF_END = getattr(settings, 'ADMINFILES_REF_END', '>>>')
 ADMINFILES_STRING_IF_NOT_FOUND = getattr(settings,
                                          'ADMINFILES_STRING_IF_NOT_FOUND',
                                          u'')
+ADMINFILES_REF_ATTR = getattr(settings, 'ADMINFILES_REF_ATTR', 'rel')
 
 ADMINFILES_INSERT_LINKS = getattr(
     settings,

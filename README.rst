@@ -134,6 +134,16 @@ change (as long as the slug does not change). The URL path to the
 file, or other metadata like the height or width of an image, are not
 hardcoded in your content.
 
+If you want to not use the ``slug`` field (mapped to the ``rel`` attribute
+in the default template) but some other attribute present in the template
+you can modify the ``ADMINFILES_REF_ATTR``
+setting (the default is ``rel`` of course); this can be useful for example to
+insert directly the ``URL`` of an image with the following settings
+
+    ADMINFILES_REF_START = ''
+    ADMINFILES_REF_END = ''
+    ADMINFILES_REF_ATTR = 'href'
+
 Rendering references
 --------------------
 

@@ -75,7 +75,7 @@ $(function(){
 	  });
       $('.popup .insert').click(
           function(){
-              var insertText = this.rel;
+              var insertText = this.getAttribute(ATTR);
               if(!insertText.match('://')) {
                   insertText = START + insertText + END;
                   }
